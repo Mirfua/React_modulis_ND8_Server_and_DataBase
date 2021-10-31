@@ -32,10 +32,10 @@ function ZooCreate({create}) {
         <div className="zoo__form">
             <h2>Add new animal</h2>
             <div className="zoo__form__input">
-                <span>Name</span><input type="text" value={inputs.name} onChange={(e) => formControl(e, 'name')} />
+                <span>Animal name</span><input type="text" value={inputs.name} onChange={(e) => formControl(e, 'name')} />
             </div>
             <div className="zoo__form__input">
-            <span>Type</span><input type="text" value={inputs.type} onChange={(e) => formControl(e, 'type')} />
+            <span>Type (Class)</span><input type="text" value={inputs.type} onChange={(e) => formControl(e, 'type')} />
             </div>
             <div className="zoo__form__input">
             <span>Weight</span><input type="text" value={inputs.weight} onChange={(e) => formControl(e, 'weight')} />
