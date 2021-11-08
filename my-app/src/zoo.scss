@@ -3,10 +3,28 @@
 }
 
 .zoo {
-    background-color: rgb(46, 72, 95);
+    background-color: steelblue;
     min-width: 100vw;
     min-height: 100vh;
     position: relative;
+    &__nav {
+        height: 100px;
+        background-color: lightcoral;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        &__filter {
+            font-size: 18px;
+            margin: 20px;
+            span {
+                padding: 0 7px;
+                color: white;
+            }
+        }
+        &__reset {
+            margin: 10px;
+        }
+    }
     &__list {
         display: flex;
         justify-content: space-between;
@@ -62,7 +80,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        background: rgb(29, 26, 75);
+        background: paleturquoise;
         box-sizing: border-box;
         flex-wrap: wrap;
         padding-bottom: 5px;
